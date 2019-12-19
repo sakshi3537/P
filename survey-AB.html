@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ab de villiers</title>
+<meta charset="utf-8">
+<style>
+header{
+background-image:url("cricket-field.jpg");
+height:100px;
+}
+p{
+text-align:justify;
+font-size:18px;
+}
+nav ul{
+list-style-type:none;
+padding:0;
+margin-top:0;
+margin-bottom:10px;
+}
+nav li{
+display:inline;
+float:left;
+}
+nav a:link,nav a:visited{
+text-decoration:none;
+background-color:green;
+display:block;
+color:#FFFFFF;
+width:300px;
+text-align:center;
+padding:20px 0px;
+}
+nav a:hover{
+background-color:#000000;
+}
+</style>
+</head>
+<body>
+<header>
+</header>
+<nav>
+<ul>
+<li><a href="webie.html">INTRO TO AB</a></li>
+<li><a href="career-ab.html">CAREER</a></li>
+<li><a href="personal-life-AB.html">PERSONAL LIFE</a></li>
+<li><a href="records-AB.html">RECORDS</a></li>
+<li><a href="survey-AB.html">SURVEY</a></li>
+<ul>
+</nav>
+<br><br><br><br>
+<aside style="float:left">
+<img src="shot-AB.jpg" alt="shot" width="350px" height="450px">
+</aside>
+<aside style="float:right">
+<img src="century-AB.jpg" alt="shot" width="350px" height="450px">
+</aside>
+<section>
+<form action="survey.php" method="post">
+<fieldset style="text-align:center;width:450px;margin-right:auto;margin-left:auto;" >
+<legend>Personal information</legend>
+Name:<br><input type="text" name="name"><br>
+Nationality:<br><input type="text" name="nationality"><br>
+Age:<br><input type="age" name="age"><br>
+</fieldset>
+<br><br>
+<fieldset style="text-align:center;width:450px;margin-right:auto;margin-left:auto;">
+How will you rate AB de villiers as a cricketer?<br> 
+1<input type="range" min="1" max="10">10<br>
+Have you seen Mr360 reverse sixes?<br>
+<input type="radio" name="reverse sixes" value="Yes">Yes<br>
+<input type="radio" name="reverse sixes" value="No">No<br>
+Which is your favourite innings of ABD?<br>
+<textarea name="fav innings" rows="2" cols="25">
+</textarea><br>
+Who you think is AB de villiers tough competitor?<br>
+<select>
+<option value="chris gayle">Chris gayle</option>
+<option value="virat kohli">Virat kohli</option>
+<option value="MS dhoni">MS Dhoni</option>
+<option value="david warner">David warner</option>
+</select>
+<br><br>
+<input type="submit" value="submit"><br>
+<p style="color:blue;text-align:center;">Thanks for the feedback</p> 
+</fieldset>
+</form>
+</section>
+</body>
+</html>
